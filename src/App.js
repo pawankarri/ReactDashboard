@@ -1,6 +1,6 @@
 import { Card } from '@mui/material';
 import './App.css';
-import DashboardScreen from './DashboardScreen';
+import DashboardScreen from './pages/DashboardScreen';
 
 function App() {
   return (

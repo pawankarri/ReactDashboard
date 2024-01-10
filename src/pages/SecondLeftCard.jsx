@@ -5,7 +5,7 @@ import HorizontalBars from './HorizontalBars';
 
 export default function SecondLeftCard() {
   return (
-   <Card sx={{marginTop:'10px', height:'100%'}} elevation={1}>
+   <Card sx={{marginTop:'10px', height:'100%',mr:'5px'}} elevation={1}>
    <Grid sx={{display:'flex' ,justifyContent:'space-between'}}>
     <Grid >
     <Typography variant='h6'>Topic you are interested in</Typography>

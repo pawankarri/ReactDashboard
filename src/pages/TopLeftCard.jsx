@@ -8,8 +8,8 @@ export default function TopLeftCard() {
    
             <Card sx={{m:'5px',height:"100%"}} elevation={1}>
       <Grid sx={{display:'flex',flexDirection:'column',justifyContent:'flex-start',}}>
-<Typography variant='h6'>Welcome back, Felecia 👋🏻</Typography>
-<Typography variant='h6'>Your progress this week is Awesome. let's keep it up and get a lot of points reward !</Typography>
+<Typography variant='h6' sx={{ml:'10px'}}>Welcome back, Felecia 👋🏻</Typography>
+<Typography variant='h6' sx={{ml:'10px'}}>Your progress this week is Awesome. let's keep it up and get a lot of points reward !</Typography>
       </Grid>
       <Grid sx={{display:'flex',justifyContent:'space-evenly',}}>
        <Grid sx={{display:'flex',justifyContent:'flex-start',}}>
